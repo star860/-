@@ -1,0 +1,13 @@
+import happybase
+
+hb_host = '10.73.95.1'
+connection = happybase.Connection(hb_host, autoconnect=False)
+connection.open()
+
+table = connection.table('ODS_PHM_ONLINE_TRAIN_DATA_LOG')
+g = table.scan(row_start='32_2501_00_201905010930', limit=3)
+
+for k, d in g:
+    print k
+    for x in d:
+        print x, d[x]

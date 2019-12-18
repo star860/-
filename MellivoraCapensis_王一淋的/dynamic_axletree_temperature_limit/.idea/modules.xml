@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/dynamic_bearing_temperature.iml" filepath="$PROJECT_DIR$/.idea/dynamic_bearing_temperature.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../工作资料/sensorModel/.idea/sensorModel.iml" filepath="$PROJECT_DIR$/../../工作资料/sensorModel/.idea/sensorModel.iml" />
+    </modules>
+  </component>
+</project>
